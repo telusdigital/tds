@@ -2,25 +2,21 @@ const fontBase = 'https://cdn.telus.digital/thorium/core/fonts/'
 const iconFontBase = 'https://cdn.telus.digital/thorium/core/v0.4.0/'
 
 const fonts = [
-  `${fontBase}aff68211-86bb-476d-882e-f7a3face144c.woff2?v=20200302`,
-  `${fontBase}50d35bbc-dfd4-48f1-af16-cf058f69421d.woff?v=20200302`,
-  `${fontBase}278bef59-6be1-4800-b5ac-1f769ab47430.ttf`,
-  `${fontBase}56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix`,
-
-  `${fontBase}etext/b8765d4b-d9a3-48b9-ac65-560e7517cf0e.woff2?v=20200302`,
-  `${fontBase}etext/d7d2e6c6-fc3a-41a5-9b52-648e12e215b2.woff?v=20200302`,
-  `${fontBase}etext/cb64744b-d0f7-4ef8-a790-b60d6e3e4f21.ttf`,
-  `${fontBase}etext/e0781a75-0ecb-464e-b6e9-85780ddc0921.eot?#iefix`,
-
-  `${fontBase}etext/dc50c02f-3f77-4e75-b89c-e3f9bb4752e6.woff2?v=20200302`,
-  `${fontBase}etext/ce6f5b38-1cb5-4a27-8182-583aa68b2436.woff?v=20200302`,
-  `${fontBase}etext/ff06cde7-e06a-4cf0-af4d-5b2f737bf544.ttf`,
-  `${fontBase}etext/706ec8e5-fe4a-4518-91a6-7aba4d3d333f.eot?#iefix`,
-
-  `${fontBase}etext/3e8a8b56-3cb0-4347-b670-eaaf06b76e9b.woff2?v=20200302`,
-  `${fontBase}etext/07173950-fa69-4b65-9c71-0cf2ec00b51d.woff?v=20200302`,
-  `${fontBase}etext/aac5a4b8-ffd3-4529-a098-21b91bc86f9a.ttf`,
-  `${fontBase}etext/a747e1ea-ecdf-4f3d-ad47-3df9cfbee3cc.eot?#iefix`,
+  // Extra Light - 300
+  `${fontBase}4bd3d6e0-6b98-41a1-a06a-dfdbf1994992.woff2?v=20200910`,
+  `${fontBase}73c844b5-6d47-4890-a06c-0da85be1ba8c.woff?v=20200910`,
+  // Light - 325
+  `${fontBase}8448bbbb-ba62-45df-ae79-4ded34b0727b.woff2?v=20200910`,
+  `${fontBase}ad48d569-0df5-4f5d-8ad3-8ce63dd84d7d.woff?v=20200910`,
+  // Regular - 400
+  `${fontBase}5eec4451-e90c-42e7-b4d8-9b8654a65568.woff2?v=20200910`,
+  `${fontBase}f7cf763b-e79b-4c28-af92-803e0c3f16d4.woff?v=20200910`,
+  // Medium - 500
+  `${fontBase}2fd3ef81-07ed-45b4-a344-7a0defbdadcf.woff2?v=20200910`,
+  `${fontBase}52492279-0374-4238-ba8b-751b50089cf0.woff?v=20200910`,
+  // Bold - 700
+  `${fontBase}2a13627f-dba8-48e1-935c-a404f5293139.woff2?v=20200910`,
+  `${fontBase}ce7a1fe7-2605-427a-b064-a01ebce69295.woff?v=20200910`,
 
   `${iconFontBase}core-icons.woff2?v=20200302`,
   `${iconFontBase}core-icons.woff?v=20200302`,
