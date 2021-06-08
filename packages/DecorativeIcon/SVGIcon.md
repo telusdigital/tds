@@ -862,7 +862,8 @@ const IconTable = require('../../docs/components/custom/IconTable/IconTable').de
       },
       { name: 'CartTeam'
         Component: CartTeam,
-        usageCriteria: 'Custom icon for the Mobility CART team'},
+        usageCriteria: 'Custom icon for the Mobility CART team'
+      },
     ]}
   />
 </Box>
