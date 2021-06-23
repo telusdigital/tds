@@ -860,9 +860,10 @@ const IconTable = require('../../docs/components/custom/IconTable/IconTable').de
         Component: NoContract,
         usageCriteria: 'For use in value prop statements',
       },
-      { name: 'CartTeam'
+      {
+        name: 'CartTeam',
         Component: CartTeam,
-        usageCriteria: 'Custom icon for the Mobility CART team'
+        usageCriteria: 'Custom icon for the Mobility CART team',
       },
     ]}
   />
