@@ -860,6 +860,11 @@ const IconTable = require('../../docs/components/custom/IconTable/IconTable').de
         Component: NoContract,
         usageCriteria: 'For use in value prop statements',
       },
+      {
+        name: 'WebstoreTeam',
+        Component: WebstoreTeam,
+        usageCriteria: 'Custom icon for the Webstore/KANA teams',
+      },
     ]}
   />
 </Box>
