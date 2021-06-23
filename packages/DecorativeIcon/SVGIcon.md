@@ -860,6 +860,11 @@ const IconTable = require('../../docs/components/custom/IconTable/IconTable').de
         Component: NoContract,
         usageCriteria: 'For use in value prop statements',
       },
+      {
+        name: 'Sales',
+        Component: Sales,
+        usageCriteria: 'Custom icon for the Home Solutions Sales team',
+      },
     ]}
   />
 </Box>
