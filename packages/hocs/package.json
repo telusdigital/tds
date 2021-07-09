@@ -21,7 +21,7 @@
   },
   "homepage": "http://tds.telus.com",
   "peerDependencies": {
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   }
 }
