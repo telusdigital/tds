@@ -128,7 +128,7 @@
     "postcss": "^7.0.1",
     "postcss-cli": "^6.0.0",
     "postcss-loader": "^3.0.0",
-    "prettier": "^1.17.1",
+    "prettier": "^2.0.0",
     "pumpify": "^2.0.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
