@@ -108,7 +108,7 @@
     "eslint-plugin-react": "^7.18.0",
     "eslint-plugin-react-hooks": "^2.3.0",
     "gitbook-cli": "^2.3.2",
-    "husky": "^4.0.0",
+    "husky": "^7.0.0",
     "identity-obj-proxy": "^3.0.0",
     "install-group": "^3.0.0",
     "jest": "^25.0.0",
