@@ -157,7 +157,7 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1",
     "webpack-import-glob-loader": "^1.6.3",
-    "yargs": "^13.0.0"
+    "yargs": "^17.0.0"
   },
   "dependencies": {
     "prop-types": "^15.5.10"
