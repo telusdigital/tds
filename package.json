@@ -88,7 +88,7 @@
     "babel-loader": "^8.0.0-beta.1",
     "babel-plugin-styled-components": "^1.10.0",
     "case": "^1.5.5",
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "classnames": "^2.2.6",
     "commitizen": "^3.0.7",
     "css-loader": "^2.0.0",
