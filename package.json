@@ -134,7 +134,7 @@
     "react-dom": "^16.8.5",
     "react-helmet": "^6.0.0",
     "react-router-dom": "^5.1.2",
-    "react-styleguidist": "^10.6.1",
+    "react-styleguidist": "^11.0.0",
     "react-test-renderer": "^16.0.0",
     "remark-cli": "^7.0.0",
     "request": "^2.87.0",
