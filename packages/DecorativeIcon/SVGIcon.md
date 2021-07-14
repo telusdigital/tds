@@ -481,6 +481,11 @@ const IconTable = require('../../docs/components/custom/IconTable/IconTable').de
         usageCriteria: 'map, travel, gps',
       },
       {
+        name: 'Oval',
+        Component: Oval,
+        usageCriteria: 'oval, lock',
+      },
+      {
         name: 'Play',
         Component: Play,
         usageCriteria: 'play, video alternative',
