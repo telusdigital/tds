@@ -79,7 +79,7 @@
     "@lerna/publish": "^3.20.2",
     "@telus/eslint-config": "^2.0.1",
     "@telus/remark-config": "^1.2.0",
-    "@vxna/mini-html-webpack-template": "^1.0.0",
+    "@vxna/mini-html-webpack-template": "^2.0.0",
     "all-contributors-cli": "^6.9.3",
     "autoprefixer": "^9.0.0",
     "aws-sdk": "^2.114.0",
