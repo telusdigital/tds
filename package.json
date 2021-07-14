@@ -90,7 +90,7 @@
     "case": "^1.5.5",
     "chalk": "^3.0.0",
     "classnames": "^2.2.6",
-    "commitizen": "^3.0.7",
+    "commitizen": "^4.0.0",
     "css-loader": "^2.0.0",
     "css-mediaquery": "^0.1.2",
     "css-modules-loader-core": "^1.1.0",
