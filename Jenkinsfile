@@ -75,25 +75,6 @@ try {
     )
   }
 
-  stage('Publish Trigger') {
-    inputUrl = env.BUILD_URL ? "(${env.BUILD_URL}publish-trigger)" : '';
-    notifyBuild(
-      message: "Build is ready for a Publish ${inputUrl}",
-      color: '#0000FF',
-      buildVersion: buildVersion
-    )
-    timeout(time:1, unit:'DAYS') {
-      input 'Publish the npm package?'
-    }
-  }
-
-  stage('Publish') {
-    publish(
-      name: 'tds',
-      buildVersion: buildVersion
-    )
-  }
-
   currentBuild.result = 'SUCCESS'
 }
 catch (org.jenkinsci.plugins.workflow.steps.FlowInterruptedException flowError) {
@@ -139,13 +120,6 @@ def deploy(Map attrs) {
   node {
     unstash 'scripts'
     sh("./openshift/run-deploy-docs.sh ${attrs.name} ${attrs.buildVersion} ${attrs.environment}")
-  }
-}
-
-def publish(Map attrs) {
-  node {
-    unstash 'scripts'
-    sh("./openshift/run-publish.sh ${attrs.name} ${attrs.buildVersion}")
   }
 }
 
