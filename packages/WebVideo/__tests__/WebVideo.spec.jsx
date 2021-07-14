@@ -18,6 +18,11 @@ describe('WebVideo', () => {
     expect(webVideo).toHaveStyleRule('padding-top', '75%')
   })
 
+  it('applies default ratio when invalid aspect ratio is provided', () => {
+    const webVideo = doMount({ aspectRatio: '0:invalid' }).find('[data-testid="aspectLimiter"]')
+    expect(webVideo).toHaveStyleRule('padding-top', '100%')
+  })
+
   it('passes additional attributes to the element', () => {
     const webVideo = doMount({ id: 'the-id', 'data-some-attr': 'some value' })
 

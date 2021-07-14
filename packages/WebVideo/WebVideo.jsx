@@ -22,14 +22,19 @@ const StyledYoutubePlayer = styled(YouTube)({
   right: 0,
 })
 
-const aspectRatios = {
-  '16:9': { paddingTop: '56.25%' },
-  '4:3': { paddingTop: '75%' },
-  '1:1': { paddingTop: '100%' },
+const getAspectRatioStyle = aspectRatio => {
+  const [numerator, denominator] = aspectRatio
+    .split(':')
+    .map(number => parseInt(number, 10))
+    .filter(number => number !== 0)
+  const percentage = numerator && denominator ? (denominator * 100) / numerator : 100
+  return {
+    paddingTop: `${percentage.toString()}%`,
+  }
 }
 
 const AspectLimiter = styled.div(props => ({
-  ...aspectRatios[props.aspectRatio],
+  ...getAspectRatioStyle(props.aspectRatio),
   position: 'relative',
 }))
 
@@ -104,7 +109,7 @@ WebVideo.propTypes = {
   /**
    * The aspect ratio of the player.
    */
-  aspectRatio: PropTypes.oneOf(['16:9', '4:3', '1:1']),
+  aspectRatio: PropTypes.string,
   /**
    * A path of the image that will be displayed on the video's splash screen. If this is undefined, it will pull an image from the defined web video if available.
    */
